@@ -13,7 +13,7 @@ Before you begin make sure you have Python 3.7 or higher. It may work with other
 git clone https://github.com/neuro-myoung/invols.git
 ```
 
-Create a local virtual environment, activate it, and install the requried packages using either
+Create a local virtual environment, activate it, and install the required packages using either
 
 ```
 pip install -r requirements.txt 
@@ -23,13 +23,13 @@ or with pipenv
 pipenv install
 ```
 
-With the prerequisite packages installed from theappropriate environment run the following command and the app will open in your local host.
+With the prerequisite packages installed from the appropriate environment run the following command and the app will open in your local host.
 
 ```
 streamlit run invols.py
 ```
 
-Alternatively, a web version of this app is available on Streamlit Sharing ![here](https://share.streamlit.io/neuro-myoung/invols/invols.py).
+Alternatively, a web version of this app is available on Streamlit Sharing [here](https://share.streamlit.io/neuro-myoung/invols/invols.py).
 An example of a working data file is found in the examples folder.
 
 ## Demo
