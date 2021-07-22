@@ -1,9 +1,7 @@
 # Optical Lever Sensitivity Calibration
 
 ## Description
-A streamlit app developed for determining optical lever sensitivity. The app is made to work with a standard output file from HEKA patchmaster but can be repurposed for other formats if needed. Contact me if you have any questions!
-
-This app is used to calibrate the inverse optical lever sensitivity. The piezoscanner position is determined using the manufacturer calibration and the applied voltage. The photodetector vertical difference signal (V) is then plotted as a function of piezoscanner position. We make the assumption that when the cantilever presses down on a hard surface the slope of the cantilever tip position as a function of the piezoscanner position = 1 and calculate the sensitivity in nm/V. Select a linear region of the plot and press fit line to determine the sensitivity.
+This app is written in Python and uses Streamlit. It is used to calibrate the inverse optical lever sensitivity. The piezoscanner position is determined using the manufacturer calibration and the applied voltage. The photodetector vertical difference signal (V) is then plotted as a function of piezoscanner position. We make the assumption that when the cantilever presses down on a hard surface the slope of the cantilever tip position as a function of the piezoscanner position = 1 and calculate the sensitivity in nm/V. Select a linear region of the plot and press fit line to determine the sensitivity. The app is made to work with a standard output file from HEKA patchmaster but can be repurposed for other formats if needed. importantly the values are based on the calibration of our particular instrument so minor changes to the V2nm function will be necessary if you would like to use it based on your own system. Contact me if you have any questions I would be happy to help!
 
 ## Prerequisites
 
