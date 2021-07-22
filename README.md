@@ -3,6 +3,8 @@
 ## Description
 A streamlit app developed for determining optical lever sensitivity. The app is made to work with a standard output file from HEKA patchmaster but can be repurposed for other formats if needed. Contact me if you have any questions!
 
+This app is used to calibrate the inverse optical lever sensitivity. The piezoscanner position is determined using the manufacturer calibration and the applied voltage. The photodetector vertical difference signal (V) is then plotted as a function of piezoscanner position. We make the assumption that when the cantilever presses down on a hard surface the slope of the cantilever tip position as a function of the piezoscanner position = 1 and calculate the sensitivity in nm/V. Select a linear region of the plot and press fit line to determine the sensitivity.
+
 ## Prerequisites
 
 Before you begin make sure you have Python 3.7 or higher. It may work with other versions but I have not tested it.
@@ -23,8 +25,17 @@ or with pipenv
 pipenv install
 ```
 
-## Examples
-To come...
+With the prerequisite packages installed from theappropriate environment run the following command and the app will open in your local host.
+
+```
+streamlit run invols.py
+```
+
+Alternatively, a web version of this app is available on Streamlit Sharing ![here](https://share.streamlit.io/neuro-myoung/invols/invols.py).
+
+## Demo
+
+![Demo GIF](/demo/demo.gif)
 
 
 ## Contributing
