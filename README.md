@@ -32,8 +32,11 @@ streamlit run invols.py
 ```
 
 Alternatively, a web version of this app is available on Streamlit Sharing ![here](https://share.streamlit.io/neuro-myoung/invols/invols.py).
+An example of a working data file is found in the examples folder.
 
 ## Demo
+
+Just drag and drop your file of interest, sinput your fit region, and you're done!
 
 ![Demo GIF](/demo/demo.gif)
 
